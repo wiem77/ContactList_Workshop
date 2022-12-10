@@ -1,0 +1,21 @@
+{
+  "name": "mongoose_workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon Server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"concurrently \"npm run server\" \"cd contatlsit && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+    
+  }
+}
